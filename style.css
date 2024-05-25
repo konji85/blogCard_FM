@@ -1,0 +1,66 @@
+body{
+    font-size: 16px;
+    font-family: 'Figtree';
+    background-color: hsl(47, 88%, 63%);
+    color:  hsl(0, 0%, 7%);
+    max-width: 1440px;
+    min-width: 375px;
+    font-weight: 500;
+}
+
+.container{
+    margin:10% auto;
+    padding: 1.2rem 1rem;
+    max-width: 25%;
+    max-height: 60%;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 7px 7px;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(0, 0%, 100%);
+}
+.card-image img{
+            width:100%;
+            border-radius: 10px;
+            }
+
+.tag{
+    margin:0.9rem 0;
+    padding: 0.4rem 0.5rem;
+    width:25%;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    font-weight: 800;
+    text-align: center;
+}
+.date{
+        font-size: 0.8rem;
+        
+    
+}
+.title{
+    font-weight: 800;
+    margin: 0.8rem 0;
+    font-size: 1.3rem;
+}
+.title a{   text-decoration: none; color: hsl(0, 0%, 7%);;}
+.title a:hover{color: hsl(47, 88%, 63%);}
+.description{
+    color:hsl(0, 0%, 50%);
+    margin:0.6rem 0;
+    
+}
+.publisher{
+            display: flex;
+            align-items: center;
+            font-weight: 800;
+            margin-top: 0.2rem;
+            }
+.publisher img{width:35px; }
+.publisher-name{
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
